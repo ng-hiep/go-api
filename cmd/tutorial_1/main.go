@@ -27,6 +27,7 @@ type engine interface {
 	mileLeft() uint32
 }
 
+// Function
 func canMakeIt(e engine, miles uint32) {
 	if miles <= e.mileLeft() {
 		fmt.Println("You can make it!")
