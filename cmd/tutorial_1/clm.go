@@ -8,6 +8,7 @@ func square(thing2 *[5]float64) [5]float64 {
 		thing2[i] = thing2[i] * thing2[i]
 	}
 	return *thing2
+
 }
 
 func main() {
